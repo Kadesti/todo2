@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +41,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.test {
+  color: black;
+  background-color: #f0f0f0;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY();
+  border: 3px #282c34;
+  overflow: hidden;
+  background-image: url('/src/img/로딩화면.png');
+  transform: translateY();
+  background-color: none;
+
+  /* margin-bottom: ; */
+  justify-content: end;
 }
